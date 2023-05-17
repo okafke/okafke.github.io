@@ -24,11 +24,11 @@
         {
           "name": "keyboard-1.1.0.aab",
           "url": "keyboard-1.1.0.aab",
-          "size": 4475946,
-          "sha512": "ad770b9940e0ae88f0163b27cb863957e4bd2580ce8ced0e86ac84deb8cbb595dbca50302d7417520175206a99e27103ed0246dcdd55ad5e8f45dde68bbcde0d",
-          "sha256": "e294880a415c96ad70d2bfed05b203aaa2634815919ada062d8690cafac12764",
-          "sha1": "c0238eb4bd1a70c6f755f80336c5a7d64f907ad7",
-          "md5": "bb9b12366632a543d515f7e5a7ca0716"
+          "size": 4476009,
+          "sha512": "3962e101983f332f3dab46a48f75280d747e7082ee551334f660bbe53e61691096799bcb591349ca8a4e30bcd4b4115b7ac841ee0ea74bfb7f84da33f868e2bf",
+          "sha256": "f383827769a5f467ae31e69c4958bf7ec0444f08ec0486595893389856b339c8",
+          "sha1": "28133abbaa2ce9c8bb7bf216434af3d32d965c59",
+          "md5": "f7413ab21f58ff72959ce139f8c07e5d"
         }
       ]
     }
