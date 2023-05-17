@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.okafke.aapi",
+    "module": "keyboard",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseAabPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.libraryelements": "aab"
+      },
+      "files": [
+        {
+          "name": "keyboard-1.1.0.aab",
+          "url": "keyboard-1.1.0.aab",
+          "size": 4475946,
+          "sha512": "ad770b9940e0ae88f0163b27cb863957e4bd2580ce8ced0e86ac84deb8cbb595dbca50302d7417520175206a99e27103ed0246dcdd55ad5e8f45dde68bbcde0d",
+          "sha256": "e294880a415c96ad70d2bfed05b203aaa2634815919ada062d8690cafac12764",
+          "sha1": "c0238eb4bd1a70c6f755f80336c5a7d64f907ad7",
+          "md5": "bb9b12366632a543d515f7e5a7ca0716"
+        }
+      ]
+    }
+  ]
+}
