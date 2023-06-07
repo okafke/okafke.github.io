@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.okafke.aapi",
+    "module": "app",
+    "version": "1.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseAabPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.libraryelements": "aab"
+      },
+      "files": [
+        {
+          "name": "app-1.1.3.aab",
+          "url": "app-1.1.3.aab",
+          "size": 3843620,
+          "sha512": "5d6a13c15229374a8649db4adf6f9f504131a4c5c0ca5eaac61f18c3b1ceed549ddeaa1ba99a0a490228a8dae86e78dae5df3cb15978bcecf2f0928884780cae",
+          "sha256": "bc7c21ca23cc31fe8b47848f5e8bb82b6e96d066efc286c469afdb3d86dba101",
+          "sha1": "578f0e748bc1c7e8f033e217eeef271314903db9",
+          "md5": "b4022700cddc9beb63aec1d940b7be4d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.okafke.aapi",
+    "module": "aidl",
+    "version": "1.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aidl-1.1.3.aar",
+          "url": "aidl-1.1.3.aar",
+          "size": 31328,
+          "sha512": "af549640c448a89bc22eb91fb5ab178611a3b2a6ec6b6761a81d87e5da35bff3c96bf17cd2c4c12cd69c94a7ce124752d28df09564bf1c769a51e824f9fe26cb",
+          "sha256": "61ae668cf769f9194a9034f22f315738c483cddb93d5f2629901128d17868c2d",
+          "sha1": "28b973349a4cb41a60196f720a329b5fb2945504",
+          "md5": "c3d0bf5c7bd941ab4070d7a663f363e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.github.okafke.aapi",
+          "module": "json",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aidl-1.1.3.aar",
+          "url": "aidl-1.1.3.aar",
+          "size": 31328,
+          "sha512": "af549640c448a89bc22eb91fb5ab178611a3b2a6ec6b6761a81d87e5da35bff3c96bf17cd2c4c12cd69c94a7ce124752d28df09564bf1c769a51e824f9fe26cb",
+          "sha256": "61ae668cf769f9194a9034f22f315738c483cddb93d5f2629901128d17868c2d",
+          "sha1": "28b973349a4cb41a60196f720a329b5fb2945504",
+          "md5": "c3d0bf5c7bd941ab4070d7a663f363e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aidl-1.1.3-sources.jar",
+          "url": "aidl-1.1.3-sources.jar",
+          "size": 9030,
+          "sha512": "738def3ac874fe8437f800db1951edabc75bdd3f4864dc1a6953c12cac9474b9a12791d0ceb83331a6e93af7426814964ecfdb32b678d07330163c6f627ab5bf",
+          "sha256": "9bb6e51c802b1c6c7a4e228cb4b5e7aba68e1cdbd7f01f00752c0797943624ee",
+          "sha1": "8c1256f77b8167e5f2d3b7e3d3beec565d652b15",
+          "md5": "b91e2e6f2b66a55888acf0b15fc18f3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aidl-1.1.3-javadoc.jar",
+          "url": "aidl-1.1.3-javadoc.jar",
+          "size": 343936,
+          "sha512": "4689a9fca049890e93d3abac79f06a53631ed146a2e549fa5001264173e5b35d71fc04d1f3815c68c34722d7658fb53bedbbfb8eb6b0a6d16d5f4eb990e8df98",
+          "sha256": "f78983e900091bab92feb573f7dd132c7e0245596877be80f5631b6c7eb713ee",
+          "sha1": "ed82e9e5a0fbc8bc29eae4d290660c3c092cc6b4",
+          "md5": "c4745f583b2ce240c6af2434f06b090a"
+        }
+      ]
+    }
+  ]
+}
